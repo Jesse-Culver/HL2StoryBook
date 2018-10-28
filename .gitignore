@@ -54,3 +54,17 @@ config.cfg
 # shader files
 *.tmp
 
+
+*.sentinel
+
+*.vpc_crc
+
+*.filters
+
+*.lib
+
+sp/src/game/server/Release_mod_hl2/vc120\.pdb
+
+sp/src/game/server/Release_mod_episodic/vc120\.pdb
+
+*.pdb
