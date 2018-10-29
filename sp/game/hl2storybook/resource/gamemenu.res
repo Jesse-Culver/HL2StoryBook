@@ -7,13 +7,20 @@
 		"InGameOrder" "10"
 		"OnlyInGame" "1"
 	}
-	"5"	
+	"3"
 	{
 		"label" "#GameUI_GameMenu_NewGame"
-		"command" "OpenNewGameDialog"
-		"InGameOrder" "40"
+		"command" "OpenBonusMapsDialog"
+		"InGameOrder" "50"
 		"notmulti" "1"
 	}
+	//"5"	
+	//{
+	//	"label" "#GameUI_GameMenu_NewGame"
+	//	"command" "OpenNewGameDialog"
+	//	"InGameOrder" "40"
+	//	"notmulti" "1"
+	//}
 	"6"
 	{
 		"label" "#GameUI_GameMenu_LoadGame"
@@ -45,12 +52,12 @@
 		"OnlyWhenVREnabled" "1"
 		"OnlyWhenVRActive" "1"
 	}
-	"8"
-	{
-		"label" "#GameUI_GameMenu_Achievements"
-		"command" "OpenAchievementsDialog"
-		"InGameOrder" "50"
-	}
+	// "8"
+	// {
+	// 	"label" "#GameUI_GameMenu_Achievements"
+	// 	"command" "OpenAchievementsDialog"
+	// 	"InGameOrder" "50"
+	// }
 	"9"
 	{
 		"label" "#GameUI_Controller"
@@ -71,4 +78,3 @@
 		"InGameOrder" "80"
 	}
 }
-
